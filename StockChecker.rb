@@ -3,7 +3,6 @@ require 'nokogiri'
 
 puts "Please enter a stock symbol.", "(for example: AAPl)"
 stock = gets.chomp.upcase
-# stock = "L"
 url = "http://finance.yahoo.com/q?s=" + stock.to_s
 
 # goes to the URL page
